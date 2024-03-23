@@ -1,0 +1,41 @@
+{
+  "name": "doloremquenam",
+  "description": "Flow of Ethereum blockchain",
+  "version": "1.0.0",
+  "author": "EttieJerde",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "bin": {
+    "etherflow": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TitoJohnston/doloremquenam.git"
+  },
+  "keywords": [
+    "ethereum",
+    "repudiandae",
+    "txn"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/runtime": "^7.16.5",
+    "babel-loader": "^8.2.3",
+    "jest": "^27.4.5",
+    "terser-webpack-plugin": "^5.3.0",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "inquirer": "^8.2.0",
+    "loading-cli": "^1.1.0",
+    "web3-eth": "^1.6.1",
+    "web3-utils": "^1.6.1"
+  },
+  "bugs": {
+    "url": "https://github.com/TitoJohnston/doloremquenam.git/issues"
+  },
+  "homepage": "https://github.com/TitoJohnston/doloremquenam.git"
+}
